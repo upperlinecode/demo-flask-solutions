@@ -20,7 +20,7 @@ app = Flask(__name__)
 def index():
   props = {
     "title": "My Breakfast Shouter",
-    "first_name":"Steven"
+    "first_name":"User"
   }
   return render_template("index.html", time = datetime.now(), props=props)
 
